@@ -24,10 +24,9 @@ Gem::Specification.new do |s|
   s.summary     = "Xero Accounting API Ruby Gem"
   s.description = "Xero API OAuth2.0 SDK - Ruby Gem"
   s.license     = "Unlicense"
-  s.required_ruby_version = ">= 2.3"
+  s.required_ruby_version = ">= 2.6"
 
   s.add_runtime_dependency 'faraday', '~> 1.0', '>= 1.0.1'
-  s.add_runtime_dependency 'json', '~> 2.1', '>= 2.1.0'
   s.add_runtime_dependency 'json-jwt', '~> 1.5', '>= 1.5.2'
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
 
